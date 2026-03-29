@@ -11,7 +11,25 @@ Above this, show a search box.  If you type name of any animal, only that animal
 The app should be modified to include all the categories available in this REST API.     
 
 
-# Assignment 2 - 
+# Assignment 2 - Who is Who.  
+This will contain pictures of 500 Indian leaders and their names and year of birth -
+
+If you type in the search box, say M, all leaders whose name has M will appear eg
+
+Mahatma GandhI
+Mother Teresa
+
+If the user types Ma, then,
+Mahatma Gandhi will appear
+
+On selection, the photo name and yearb-yeard will come. Eg 1869-1948
+
+Search should be voice enabled also. Instead of typing, if I say Mother Teresa, her photo should come up.
+
+Next, user should be able to scroll chronologically. Whoever born first will appear first eg Aryabhatta, Emperor Ashoka, Buddha, Mahavira, Swami Vivekananda etc.  I should be able to scroll up and down
+
+Next, I should be able to go to Menu, change country from IN to US. Now whatever when I type, Ab, I should get Abraham Lincoln.  But this time, the data will come from a REST API, not from a photo within the apk.  Only India photos will be packaged in the apk. All other country photos will be through a Linux Server containing photos in a cloud environment.
+
 
 
 
