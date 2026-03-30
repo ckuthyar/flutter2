@@ -30,6 +30,25 @@ Next, user should be able to scroll chronologically. Whoever born first will app
 
 Next, I should be able to go to Menu, change country from IN to US. Now whatever when I type, Ab, I should get Abraham Lincoln.  But this time, the data will come from a REST API, not from a photo within the apk.  Only India photos will be packaged in the apk. All other country photos will be through a Linux Server containing photos in a cloud environment.
 
+# Assignment 3 - Interest and EMI Calculator
+3a) Design 3 input boxes for Principal, Time, Rate of Interest.
+Design a Submit button.
+Output to show Interest, Total Amount Payable, EMI
+Eg. If P = 100,000,  T=3 years,  R=8%,  then
+Interest= Rs 24,000
+Total Amt = 1,24,000 payable in 3*12=36 months
+EMI = 1,24,000/36 = Rs 3444.44.    
+
+3b) Validate each of the inputs for type, min value, max value. Eg
+Principal is a positive integer between 1000 and 50,00,000
+Time is a positive integer between 1 and 10
+Rate of Interest is a positive integer between 3 and 20
+
+3c) Implement above logic using 3 sliders, one each for P, T and R.  In this case, the Submit button is not required. The output should change whenever any of the 3 parameters change
+
+3d) Implement a checkbox for women.  If this is ticked, the rate of interest will be 0.5% less.  ie. Normally rate of interest is 8%, if the user is a woman, then rate of interest will be 7.5%
+
+
 
 
 
